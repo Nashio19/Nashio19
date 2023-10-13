@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./login.css">
+	<title>Login</title>
+</head>
+<body>
+	<style type="text/css">
+		{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'poppins' , sans-serif;
+		}
+		.header
+		{
+			width: 100%;
+			height: 80px;
+			background-color: #fff;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			box-shadow: 10px 0 20px rgba(0, 0, 0, 0.15);
+			position: relative;
+		}
+		.logo
+		{
+			position: relative;
+			margin-left: -3em;
+		}
+		.logo a
+		{
+			text-decoration: none;
+			color: #000;
+			font-size: 2em;
+			font-weight: 700;
+		}
+		.home a
+		{
+			text-decoration: none;
+			color: #333;
+			font-size: 1.2em;
+			font-weight: 550;
+			margin-left: 1em;
+			position: relative;
+		}
+		.home a.after
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 100%;
+			height: 5px;
+			border-radius: 3px;
+			background-color: #f17406;
+			bottom: -6px;
+			transform: scale(0);
+			transition: .5s;
+		}
+		.home a:hover::after
+		{
+			transform: scale(1);
+		}
+		.home a:hover
+		{
+			color: #f17406;
+ 		}
+		.box1
+		{
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			transform: translate(9.5	%);
+			position: relative;
+		}
+		.box1-1 h2
+		{
+			color: #f17406;
+			font-size: 2.2em;
+			font-weight: 700;
+		}
+		.box1-1 p
+		{
+			margin-top: 10px;
+		}
+		.box1-2
+		{
+			margin-top: 2em;
+		}
+		.box1-2
+		{
+			transform: translate(60%);
+		}
+		.box1-2 a
+		{
+			color: #333;
+			font-size: 22px;
+			text-decoration: none;
+			margin-left: 20px;
+			background-color: #eee;
+			border-radius: 50%;
+			padding: 5px 7px 5px 10px;
+		}
+		.box1-3 button
+		{
+			font-size: 1em;
+			background-color: #f17406;
+			color: #000;
+			padding: 5px 10px ;
+			border: none;
+			outline: none;
+			border-radius: 5px;
+			transform: translate(-135%);
+		}
+		.box1-3 button:active
+		{
+			font-size: 1.2em;
+		}
+		.img
+		{
+			position: absolute;
+		right: 0;
+		transform: translate(10% , -0%);
+		}
+
+
+
+	</style>
+	<header class="header">
+		<div class="logo"> <a href="https://www.viz.com/naruto"><img src="logo.jpg" alt="https://www.google.com/search?q=naruto+logo&sca_esv=570700320&tbm=isch&sxsrf=AM9HkKlDpTUlglYSuIxlV3tcInHmDjvY4w:1696435685055&source=lnms&sa=X&ved=2ahUKEwiZ85Cz49yBAxX6bGwGHX2ADUMQ_AUoAXoECAEQAw&biw=1280&bih=642&dpr=1.5#imgrc=K8wnrQJ_02zccM" width="65px" height="35px" />
+		</div>
+		<nav class="nav">
+			<div class="home">
+				<a href="https://steamcommunity.com/profiles/76561198892994255/">Steam</a>
+				<a href="https://www.facebook.com/nasser.cabunoc"> Facebook</a>
+				<a href="https://www.instagram.com/nashio19/"> Instagram</a>
+				<a href="https://www.youtube.com/channel/UCmnk84pHUhXcWmjpMy8s4bQ"> Youtube</a>
+			</div>
+		</nav>
+	</header>
+	<section class="section">
+		<div class="box1">
+			<div class="box1-1">
+				<h2>Hello there,</h2>
+				<h1>I'm Nashio</h1>
+				<p><i>I'm creating my gaming webpage and practicing my coding skills</i></p>
+			</div>
+			<div class="box1-3">
+				<a href="https://9animetv.to/watch/naruto-shippuden-355?ep=7882"><button>Read More</button>
+			</div>
+		</div>
+		<div class="img">
+		         <img src="itachi.jpg" width="800px" height="450px">
+		</div>
+	</section>
+
+
+
+
+</body>
+</html>
